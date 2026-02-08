@@ -84,18 +84,18 @@ def get_time(location):
         str: Current time string for the location
     """
     mock_times = {
-        "new york": "2024-12-22 14:30:00 EST",
-        "london": "2024-12-22 19:30:00 GMT",
-        "tokyo": "2024-12-23 04:30:00 JST",
-        "paris": "2024-12-22 20:30:00 CET",
-        "sydney": "2024-12-23 06:30:00 AEDT",
-        "los angeles": "2024-12-22 11:30:00 PST",
-        "utc": "2024-12-22 19:30:00 UTC",
-        "kigali": "2024-12-22 21:30:00 CAT"
+        "new york": "2025-12-22 14:30:00 EST",
+        "london": "2025-12-22 19:30:00 GMT",
+        "tokyo": "2025-12-23 04:30:00 JST",
+        "paris": "2025-12-22 20:30:00 CET",
+        "sydney": "2025-12-23 06:30:00 AEDT",
+        "los angeles": "2025-12-22 11:30:00 PST",
+        "utc": "2025-12-22 19:30:00 UTC",
+        "kigali": "2025-12-22 21:30:00 CAT"
     }
     
     location_lower = location.lower()
-    return mock_times.get(location_lower, "2024-12-22 12:00:00 UTC")
+    return mock_times.get(location_lower, "2025-12-23 10:15:00 UTC")
 
 
 def calc(expression):
